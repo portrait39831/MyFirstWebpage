@@ -13,13 +13,18 @@ body {
 }
 
 header {
-
+    height: 100px;
+    background-color: #3A506B;
+    color: white;
 }
 
 main {
-
+    flex: 1; /*body flex display */
+    color: #0B132B;
 }
 
 footer {
-
+    height: 200px;
+    background-color: #1C2541;
+    color: white;
 }
