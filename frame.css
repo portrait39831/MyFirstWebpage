@@ -13,17 +13,13 @@ body {
 }
 
 header {
-    height: 60px;
-    background-color: #333; /* 검정색 바가 보여야 함 */
-    color: white;
+
 }
 
 main {
-    flex: 1; /* 남은 공간 꽉 채우기 */
-    background-color: white; /* 본문은 하얗게 */
+
 }
 
 footer {
-    height: 100px;
-    background-color: #eee; /* 회색 바가 보여야 함 */
+
 }
