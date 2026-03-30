@@ -6,8 +6,7 @@
 
 body {
     width: 100vw;
-    min-height: 100vh; /* height 대신 min-height 권장 */
-    background-color: aqua; /* 이게 안 보이면 연결 문제! */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -20,7 +19,8 @@ header {
 
 main {
     flex: 1; /*body flex display */
-    color: #0B132B;
+    background-color: #0B132B;
+    color: white;
 }
 
 footer {
