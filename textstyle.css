@@ -1,14 +1,14 @@
 @font-face {
     font-family: cr_regular;
-    src: url('CookieRun Regular.ttf') format('truetype');
+    src: url('CookieRun-Regular.ttf');
 }
 
 @font-face {
     font-family: cr_bold;
-    src: url('CookieRun Bold.ttf') format('truetype');
+    src: url('CookieRun-Bold.ttf');
 }
 
 @font-face {
     font-family: cr_black;
-    src: url('CookieRun Black.ttf') format('truetype');
+    src: url('CookieRun-Black.ttf');
 }
