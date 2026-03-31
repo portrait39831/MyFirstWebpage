@@ -30,7 +30,7 @@ header {
 
     width: clamp(30px, 6vw, 45px);
     height: clamp(30px, 6vw, 45px);
-    margin: 5px 0 5px;
+    margin: 5px 10vw 5px 10vw;
 }
 
 main {
