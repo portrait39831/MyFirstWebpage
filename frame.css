@@ -40,7 +40,17 @@ footer {
 
 .guideLine {
     font-family: 'crRegular';
-    font-size: clamp(12px, 2vw, 15px);
+    font-size: clamp(12px, 2vw, 15px); /* 가변 길이 설정하는 clamp 함수 */
     text-align: center;
     margin: 5px;
+}
+
+.youtube {
+    display: inline-block;
+    background-image: url('icon\icon-sns-youtube.svg');
+    background-position: center;
+    background-size: contain;
+    
+    width: clamp(24px, 4vw, 30px);
+    height: clamp(24px, 4vh, 30px);
 }
