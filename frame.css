@@ -13,7 +13,7 @@ body {
 
 header {
     height: 100px;
-    background-color: #27617b;
+    background-color: #3A506B;
     color: white;
 }
 
@@ -24,7 +24,7 @@ main {
 }
 
 footer {
-    height: 20vw;
+    height: clamp(100px, 20vw, 120px);
     background-color: #1C2541;
     color: #3A506B;
 
@@ -47,13 +47,6 @@ footer {
     border: none;
     border-radius: 3px;
     margin: 10px auto 1px;
-}
-
-.guideLine {
-    font-family: 'crRegular';
-    font-size: clamp(10px, 2vw, 15px); /* 가변 길이 설정하는 clamp 함수 */
-    text-align: center;
-    margin: 5px;
 }
 
 .youtube {
