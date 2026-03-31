@@ -19,8 +19,6 @@ header {
     display: flex;
     flex-direction: row;
     align-items: left;
-    gap: 15px;
-    margin: 5px auto 5px;
 }
 
 .jellyfish {
@@ -30,8 +28,9 @@ header {
     background-position: center;
     background-size: contain;
 
-    width: clamp(20px, 4vw, 30px);
-    height: clamp(20px, 4vw, 30px);
+    width: clamp(30px, 6vw, 45px);
+    height: clamp(30px, 6vw, 45px);
+    margin: 5px auto 5px;
 }
 
 main {
