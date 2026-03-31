@@ -30,7 +30,7 @@
     font-family: 'crBlack';
     font-size: clamp(20px, 4vw, 30px);
     text-align: left;
-    margin: 1vw 10vw;
+    margin: 0.5vw 5vw;
 }
 
 .guideLine {
