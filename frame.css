@@ -28,9 +28,9 @@ header {
     background-position: center;
     background-size: contain;
 
-    width: clamp(30px, 6vw, 45px);
-    height: clamp(30px, 6vw, 45px);
-    margin: 3px 0.5vw 0px 2vw;
+    width: 45px;
+    height: 45px;
+    margin: 0.5vw 0.5vw 0px 2vw;
 }
 
 main {
