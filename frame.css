@@ -111,32 +111,3 @@ footer {
     width: 45px;
     height: 45px;
 }
-
-.jellyfish::after {
-  content: "";
-  position: absolute;
-
-  width: 0;
-  height: 0;
-  background: rgba(255, 255, 255, 0.4);
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  opacity: 0;
-}
-
-.jellyfish:active::after {
-  animation: jellyfish-animation 0.6s ease-out;
-}
-
-@keyframes jellyfish-animation {
-  from {
-    width: 0;
-    height: 0;
-    opacity: 0.5;
-  }
-  to {
-    width: 300px; /* 버튼 크기보다 충분히 크게 설정 */
-    height: 300px;
-    opacity: 0;
-  }
-}
