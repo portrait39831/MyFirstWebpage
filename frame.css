@@ -19,6 +19,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: left;
+
+    gap: 5px;
 }
 
 .jellyfish {
