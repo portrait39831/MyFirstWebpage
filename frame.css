@@ -37,7 +37,7 @@ footer {
     display: flex;
     flex-direction: row;
     gap: 15px;
-    margin: 10 auto 10;
+    margin: 10px auto 10px;
 }
 
 .bottomLine {
