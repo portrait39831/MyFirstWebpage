@@ -47,10 +47,11 @@ footer {
 
 .youtube {
     display: inline-block;
-    background-image: url('icon\icon-sns-youtube.svg');
+    background-image: url('icon/icon-sns-youtube.svg');
+    background-repeat: no repeat;
     background-position: center;
     background-size: contain;
     
     width: clamp(24px, 4vw, 30px);
-    height: clamp(24px, 4vh, 30px);
+    height: clamp(24px, 4vw, 30px);
 }
