@@ -29,6 +29,7 @@ footer {
     color: #3A506B;
 
     display: flex;
+    flex-direction: column;
     align-items: center;
 }
 
