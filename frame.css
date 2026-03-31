@@ -69,7 +69,7 @@ footer {
 
 .insta {
     display: inline-block;
-    background-image: url('icon\icon-sns-instagram.svg');
+    background-image: url('icon/icon-sns-instagram.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -80,7 +80,7 @@ footer {
 
 .twitter {
     display: inline-block;
-    background-image: url('icon\icon-sns-x.svg');
+    background-image: url('icon/icon-sns-x.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -91,7 +91,7 @@ footer {
 
 .dc {
     display: inline-block;
-    background-image: url('icon\icon-sns-dc.svg');
+    background-image: url('icon/icon-sns-dc.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
