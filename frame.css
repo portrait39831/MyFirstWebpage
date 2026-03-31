@@ -65,6 +65,13 @@ footer {
 
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
+
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+
+.youtube:hover {
+  background-image: url('icon/icon-sns-youtube2.svg');
 }
 
 .insta {
@@ -76,6 +83,13 @@ footer {
 
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
+
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+
+.insta:hover {
+  background-image: url('icon/icon-sns-instagram2.svg');
 }
 
 .twitter {
@@ -87,6 +101,13 @@ footer {
 
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
+
+    cursor: pointer;
+    transition: background-image 0.3s ease;
+}
+
+.twitter:hover {
+  background-image: url('icon/icon-sns-x2.svg');
 }
 
 .dc {
@@ -98,7 +119,15 @@ footer {
 
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
+
+    cursor: pointer;
+    transition: background-image 0.3s ease;
 }
+
+.dc:hover {
+  background-image: url('icon/icon-sns-dc2.svg');
+}
+
 
 
 .jellyfish {
