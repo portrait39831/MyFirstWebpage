@@ -40,7 +40,7 @@ footer {
 
 .guideLine {
     font-family: 'crRegular';
-    font-size: 15px;
+    font-size: clamp(12px, 2vw, 15px);
     text-align: center;
     margin: 5px;
 }
