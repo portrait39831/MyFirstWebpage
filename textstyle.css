@@ -28,9 +28,9 @@
 
 .title {
     font-family: 'crBlack';
-    font-size: clamp(30px, 6vw, 45px);
-    text-align: center;
-    margin: 10px;
+    font-size: clamp(20px, 4vw, 30px);
+    text-align: left;
+    margin: 1vw 10vw;
 }
 
 .guideLine {
