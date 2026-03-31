@@ -18,8 +18,10 @@ header {
 
     display: flex;
     flex-direction: row;
-    align-items: left;
-    justify-content: center;
+    align-items: center;
+
+    padding-left: 15px;
+    gap: 10px;
 }
 
 .jellyfish {
@@ -31,7 +33,6 @@ header {
 
     width: 45px;
     height: 45px;
-    margin: 0.3vw 0.5vw 0px 2vw;
 }
 
 main {
