@@ -33,13 +33,20 @@ footer {
     align-items: center;
 }
 
+.icon-group {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 0 auto 10;
+}
+
 .bottomLine {
     width: 60vw;
     height: 3px;
     background-color: #0B132B;
     border: none;
     border-radius: 3px;
-    margin: 30px auto 1px;
+    margin: 10px auto 1px;
 }
 
 .guideLine {
