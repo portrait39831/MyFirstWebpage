@@ -47,6 +47,7 @@ footer {
 
 .youtube {
     display: inline-block;
+    margin: 0, auto;
     background-image: url('icon/icon-sns-youtube.svg');
     background-repeat: no-repeat;
     background-position: center;
