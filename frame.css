@@ -27,6 +27,8 @@ footer {
     height: 150px;
     background-color: #1C2541;
     color: #3A506B;
+
+    justify-content: center;
 }
 
 .bottomLine {
@@ -47,7 +49,7 @@ footer {
 
 .youtube {
     display: inline-block;
-    margin: 0, 100;
+    margin: 5, 100;
     background-image: url('icon/icon-sns-youtube.svg');
     background-repeat: no-repeat;
     background-position: center;
