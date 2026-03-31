@@ -55,5 +55,5 @@ footer {
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
 
-    margin: 5 100 5;
+    margin: 5 auto;
 }
