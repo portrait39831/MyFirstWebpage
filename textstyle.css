@@ -25,7 +25,6 @@
     font-display: swap;
 }
 
-
 .title {
     font-family: 'crBlack';
     font-size: clamp(20px, 4vw, 30px);

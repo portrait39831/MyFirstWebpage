@@ -17,6 +17,24 @@ header {
     color: white;
 }
 
+.titlebar {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    margin: 5px auto 5px;
+}
+
+.jellyfish {
+    display: inline-block;
+    background-image: url('jellyfish.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    width: clamp(20px, 4vw, 30px);
+    height: clamp(20px, 4vw, 30px);
+}
+
 main {
     flex: 1; /*body flex display */
     background-color: #0B132B;
