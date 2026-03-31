@@ -28,7 +28,8 @@ footer {
     background-color: #1C2541;
     color: #3A506B;
 
-    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 
 .bottomLine {
