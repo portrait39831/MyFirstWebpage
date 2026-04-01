@@ -25,12 +25,12 @@
     font-display: swap;
 }
 
-.title {
+#title {
     font-family: 'crBlack';
     font-size: clamp(15px, 4vw, 30px);
 }
 
-.guideLine {
+#guideLine {
     font-family: 'crRegular';
     font-size: clamp(10px, 2vw, 15px); /* 가변 길이 설정하는 clamp 함수 */
     text-align: center;
