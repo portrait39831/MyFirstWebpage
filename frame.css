@@ -103,9 +103,9 @@ footer {
 
 
 
-#jellyfish {
+#titleIcon {
     display: inline-block;
-    background-image: url('jellyfish.webp');
+    background-image: url('icon.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
