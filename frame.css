@@ -56,9 +56,8 @@ footer {
     margin: 10px auto 1px;
 }
 
-#youtube {
+.snsIcon {
     display: inline-block;
-    background-image: url('icon/icon-sns-youtube.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -68,6 +67,10 @@ footer {
 
     cursor: pointer;
     transition: background-image 0.3s ease;
+}
+
+#youtube {
+    background-image: url('icon/icon-sns-youtube.svg');
 }
 
 #youtube:hover {
@@ -75,17 +78,7 @@ footer {
 }
 
 #insta {
-    display: inline-block;
     background-image: url('icon/icon-sns-instagram.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: clamp(24px, 4vw, 30px);
-    height: clamp(24px, 4vw, 30px);
-
-    cursor: pointer;
-    transition: background-image 0.3s ease;
 }
 
 #insta:hover {
@@ -93,17 +86,7 @@ footer {
 }
 
 #twitter {
-    display: inline-block;
     background-image: url('icon/icon-sns-x.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: clamp(24px, 4vw, 30px);
-    height: clamp(24px, 4vw, 30px);
-
-    cursor: pointer;
-    transition: background-image 0.3s ease;
 }
 
 #twitter:hover {
@@ -111,17 +94,7 @@ footer {
 }
 
 #dc {
-    display: inline-block;
     background-image: url('icon/icon-sns-dc.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
-    width: clamp(24px, 4vw, 30px);
-    height: clamp(24px, 4vw, 30px);
-
-    cursor: pointer;
-    transition: background-image 0.3s ease;
 }
 
 #dc:hover {
