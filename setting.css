@@ -8,3 +8,16 @@
     background-color: rgba(0, 0, 0, 0.5); /* 배경을 반투명한 검정으로 */
     z-index: 1000;
 }
+
+#settingContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: clamp(50px, 90vw, 400px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.popupOverlay.active {
+  display: flex; /* none to flex */
+}
