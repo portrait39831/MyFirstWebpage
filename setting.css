@@ -25,9 +25,14 @@
 }
 
 #openSetting {
-    background-color: #EA3D05;
+    background-color: #FE8D34;
     animation: pulse 1s;
 
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+
     font-family: 'crRegular';
-    font-size: clamp(5px, 1vw, 10px);
+    font-size: clamp(10px, 2vw, 20px);
+    color: #E73D06;
 }
