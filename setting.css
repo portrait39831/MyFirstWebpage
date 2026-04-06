@@ -45,12 +45,12 @@
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 #FE8D3480;
+        box-shadow: 0 0 0 0 #FE8D34ff;
     }
     70% {
-        box-shadow: 0 0 0 10px #FE8D3480;
+        box-shadow: 0 0 0 10px #FE8D3400;
     }
     100% {
-        box-shadow: 0 0 0 50px #FE8D3480;
+        box-shadow: 0 0 0 50px #FE8D3400;
     }
 }
