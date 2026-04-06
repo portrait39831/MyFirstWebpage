@@ -37,8 +37,8 @@
     font-size: clamp(10px, 2vw, 20px);
     color: #1C2541;
 
-    align-self: center;
-    justify-content: right;
+    align-self: flex-start;
+    justify-content: flex-end;
     margin: 10px 30px;
 }
 
