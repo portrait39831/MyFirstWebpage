@@ -36,6 +36,9 @@
     font-family: 'crRegular';
     font-size: clamp(10px, 2vw, 20px);
     color: #1C2541;
+
+    justify-content: right;
+    margin: 10px 30px;
 }
 
 #openSetting:hover {
