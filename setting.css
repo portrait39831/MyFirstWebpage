@@ -28,6 +28,7 @@
     background-color: #5BC0BE;
     box-shadow: 0 0 0 0 #5BC0BE80;
 
+    position: absolute;
     border: none;
     border-radius: 12px;
     padding: 10px 20px;
@@ -37,9 +38,7 @@
     font-size: clamp(10px, 2vw, 20px);
     color: #1C2541;
 
-    align-self: flex-start;
-    justify-content: flex-end;
-    margin: 10px 30px;
+    margin: 20px 0 0 20px;
 }
 
 #openSetting:hover {
