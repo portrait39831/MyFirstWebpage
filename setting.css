@@ -27,7 +27,6 @@
 #openSetting {
     background-color: #E73D06;
     box-shadow: 0 0 0 0 #FE8D3480;
-    animation: pulse 2s;
 
     border: none;
     border-radius: 12px;
@@ -37,6 +36,10 @@
     font-family: 'crRegular';
     font-size: clamp(10px, 2vw, 20px);
     color: #FE8D34;
+}
+
+#openSetting:hover {
+    animation: pulse 2s;
 }
 
 
