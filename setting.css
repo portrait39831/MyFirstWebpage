@@ -25,14 +25,29 @@
 }
 
 #openSetting {
-    background-color: #FE8D34;
-    animation: pulse 1s;
+    background-color: #E73D06;
+    box-shadow: 0 0 0 0 #FE8D3480;
+    animation: pulse 2s;
 
     border: none;
+    border-radius: 12px;
     padding: 10px 20px;
     cursor: pointer;
 
     font-family: 'crRegular';
     font-size: clamp(10px, 2vw, 20px);
-    color: #E73D06;
+    color: #FE8D34;
+}
+
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #FE8D3480;
+    }
+    70% {
+        box-shadow: 0 0 0 10px #FE8D3480;
+    }
+    100% {
+        box-shadow: 0 0 0 50px #FE8D3480;
+    }
 }
