@@ -37,6 +37,7 @@
     font-size: clamp(10px, 2vw, 20px);
     color: #1C2541;
 
+    align-self: center;
     justify-content: right;
     margin: 10px 30px;
 }
