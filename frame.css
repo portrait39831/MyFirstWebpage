@@ -67,6 +67,7 @@ footer {
 
     cursor: pointer;
     transition: background-image 0.3s ease;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #youtube {

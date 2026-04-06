@@ -39,6 +39,7 @@
     color: #1C2541;
 
     inset: 70px 20px auto auto;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #openSetting:hover {
