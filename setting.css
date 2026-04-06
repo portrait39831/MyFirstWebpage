@@ -13,11 +13,13 @@
     background-color: white;
     padding: 20px;
     border-radius: 8px;
-    width: clamp(50px, 90vw, 400px);
+    width: clamp(250px, 90vw, 400px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     text-align: center;
 }
 
 .popupOverlay.active {
   display: flex; /* none to flex */
+  justify-content: center;
+  align-items: center;
 }
