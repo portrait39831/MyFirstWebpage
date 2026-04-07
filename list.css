@@ -1,15 +1,26 @@
-#imageContainer {
+#list {
     display: flex;
-    flex-wrap: wrap;
-    overflow-x: auto;
-    width: 100%;
-
-    margin: 40px 10px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
 }
 
-#imageContainer img {
-    width: 150px;
-    height: auto;
-    flex-shrink: 0;
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
     border-radius: 8px;
+    background-color: #fff;
+}
+
+.row img {
+    width: clamp(24px, 4vw, 30px);
+    height: clamp(24px, 4vw, 30px);
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+.row-text {
+    flex-grow: 1;
 }
