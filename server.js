@@ -25,7 +25,6 @@ window.addEventListener('click', (e) => {
 addCookie.addEventListener('click', () => {
     const newImg = document.createElement('img');
     newImg.src = 'icon/icon-sns-youtube2.svg';
-    newImg.alt = '앙';
 
     container.appendChild(newImg);
 })
