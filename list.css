@@ -1,0 +1,15 @@
+#imageContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+
+    margin: 40px 10px;
+}
+
+#imageContainer img {
+    width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
