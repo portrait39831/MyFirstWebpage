@@ -7,7 +7,7 @@
     display: none; 
     position: fixed;
     top: 0; 
-    left: 0; * 팝업 위치 설정 */
+    left: 0; /* 팝업 위치 설정 */
     width: 100vw;
     height: 100vw;
     z-index: 1000; /*맨 앞에서 표시 */
