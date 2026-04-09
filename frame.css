@@ -5,68 +5,75 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column; /* 배치 방향 */
     width: 100vw;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
 }
 
 header {
-    height: 50px;
-    background-color: #3A506B;
-    color: white;
-
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: row; /* 배치 방향 */
+    align-items: center; /* 정렬 */
+    height: 50px;
 
     padding-left: 15px;
     gap: 10px;
+
+    background-color: #3A506B;
+    color: white; /* 글자 색 */
 }
 
 main {
-    flex: 1; /*body flex display */
+    flex: 1; /* 유연한 레이아웃 */
+
     background-color: #0B132B;
-    color: white;
+    color: white; /* 글자 색 */
 }
 
 footer {
-    height: clamp(100px, 20vw, 120px);
-    background-color: #1C2541;
-    color: #3A506B;
-
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* 배치 방향 */
+    align-items: center; /* 정렬 */
+    height: clamp(100px, 20vw, 120px);
+
+    background-color: #1C2541;
+    color: #3A506B; /* 글자 색 */
 }
 
-#icon-group {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
+#SNS-group {
+    display: flex; 
+    flex-direction: row; /* 배치 방향 */
+
+    gap: 15px;  
     margin: 20px auto 5px;
 }
 
 #bottomLine {
     width: 60vw;
     height: 3px;
-    background-color: #0B132B;
-    border: none;
-    border-radius: 3px;
     margin: 10px auto 1px;
+
+    border: none;
+    border-radius: 3px; /* 끝부분 둥글게 */
+
+    background-color: #0B132B;
 }
 
-.snsIcon {
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+.SNS {
 
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
 
     cursor: pointer;
-    transition: background-image 0.3s ease;
+    transition: background-image 0.3s ease; /* 부드러운 전환 효과 */
+}
+
+.Icon {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -104,13 +111,10 @@ footer {
 
 
 
-#titleIcon {
-    display: inline-block;
-    background-image: url('icon.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-
+#title {
+    /* display: inline-block; */
     width: 45px;
     height: 45px;
+
+    background-image: url('icon.png');
 }
