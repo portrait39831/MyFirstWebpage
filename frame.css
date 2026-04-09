@@ -110,8 +110,8 @@ footer {
 
 /* 타이틀 아이콘 */
 #title {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 
     background-image: url('icon.png');
 }

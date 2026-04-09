@@ -5,7 +5,7 @@
 
 .popupOverlay {
     display: none; 
-    position: absolute;
+    position: fixed;
     inset: 0 auto auto 0; /* 팝업 위치 설정 */
     width: 100vw;
     height: 100vw;
