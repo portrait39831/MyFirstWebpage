@@ -14,7 +14,7 @@
     background-color: #00000080; /* 뒤에 두 자리는 불투명도 (80이면 50%) */
 }
 
-#settingContent {
+#popupContent {
     text-align: center;
     width: clamp(250px, 90vw, 400px);
     padding: 20px;
@@ -47,7 +47,7 @@
     color: #1C2541;
 }
 
-#openSetting:hover {
+#openBtn:hover {
     animation: pulse 2s;
 }
 
@@ -63,6 +63,6 @@
     }
 }
 
-#settingContainer {
+#popupContainer {
     
 }
