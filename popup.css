@@ -1,51 +1,57 @@
+.btn {
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+}
+
 .popupOverlay {
     display: none; 
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #00000080; /* 배경을 반투명한 검정으로 */
-    z-index: 1000;
+    width: 100vw;
+    height: 100vw;
+    z-index: 1000; /*맨 앞에서 표시 */
+
+    background-color: #00000080; /* 뒤에 두 자리는 불투명도 (80이면 50%) */
+
+    /* top: 0;
+    left: 0; */
 }
 
 #settingContent {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: clamp(250px, 90vw, 400px);
-    box-shadow: 0 5px 15px #00000080;
     text-align: center;
+    width: clamp(250px, 90vw, 400px);
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 5px 15px #00000080;
+    background-color: white;
 }
 
 .popupOverlay.active {
-  display: flex; /* none to flex */
+  display: flex; /* 보이게 하기 */
   justify-content: center;
   align-items: center;
 }
 
-#openSetting {
-    background-color: #5BC0BE;
-    box-shadow: 0 0 0 0 #5BC0BE80;
-
+#openBtn {
     position: absolute;
+    inset: 70px 20px auto auto;
+    padding: 10px 20px;
+
     border: none;
     border-radius: 12px;
-    padding: 10px 20px;
-    cursor: pointer;
+
+    box-shadow: 0 0 0 0 #5BC0BE80;
+    background-color: #5BC0BE;
 
     font-family: 'crRegular';
     font-size: clamp(10px, 2vw, 20px);
     color: #1C2541;
-
-    inset: 70px 20px auto auto;
-    -webkit-tap-highlight-color: transparent;
 }
 
 #openSetting:hover {
     animation: pulse 2s;
 }
-
 
 @keyframes pulse {
     0% {

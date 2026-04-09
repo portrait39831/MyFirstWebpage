@@ -41,7 +41,7 @@ footer {
     color: #3A506B; /* 글자 색 */
 }
 
-#SNS-group {
+#snsGroup {
     display: flex; 
     flex-direction: row; /* 배치 방향 */
 
@@ -60,8 +60,7 @@ footer {
     background-color: #0B132B;
 }
 
-.SNS {
-
+.sns {
     width: clamp(24px, 4vw, 30px);
     height: clamp(24px, 4vw, 30px);
 
@@ -69,7 +68,7 @@ footer {
     transition: background-image 0.3s ease; /* 부드러운 전환 효과 */
 }
 
-.Icon {
+.icon {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -109,12 +108,24 @@ footer {
   background-image: url('icon/icon-sns-dc2.svg');
 }
 
-
-
+/* 타이틀 아이콘 */
 #title {
-    /* display: inline-block; */
     width: 60px;
     height: 60px;
 
     background-image: url('icon.png');
+}
+
+/* 타이틀 텍스트 */
+#titleText {
+    font-family: 'crBlack';
+    font-size: clamp(15px, 4vw, 30px);
+}
+
+#guideLine {
+    text-align: center;
+    margin: 5px;
+
+    font-family: 'crRegular';
+    font-size: clamp(10px, 2vw, 15px);
 }

@@ -8,49 +8,48 @@
 
     <link rel='stylesheet' href="textstyle.css">
     <link rel='stylesheet' href="frame.css">
-    <link rel='stylesheet' href="setting.css">
+    <link rel='stylesheet' href="popup.css">
     <link rel='stylesheet' href="list.css">
-    <link rel='stylesheet' href="button.css">
     <title>쿠키런: 오븐스매시 티어리스트 메이커</title>
 </head>
 
 <body>
     <header>
-        <a id = "title" class = "Icon"> </a>
-        <h1 id ="titleText">쿠키런: 오븐스매시 티어리스트 메이커</h1>
+        <a id="title" class="Icon"> </a>
+        <h1 id = "titleText">쿠키런: 오븐스매시 티어리스트 메이커</h1>
     </header>
 
     <main>
-        <button id="openSetting">추가하기</button>
+        <button id="openBtn" class="btn">추가하기</button>
 
         <div id="list"></div>
 
-        <div id = "settingContainer" class = "popupOverlay">
-            <div id = "settingContent">
+        <div id="popupContainer" class="popupOverlay">
+            <div id="popupContent">
                 <button id="GingerBrave">선택</button>
-                <button id="closeSetting">세팅 닫기</button>
+                <button id="closeBtn">세팅 닫기</button>
             </div>
         </div>
     </main>
 
     <footer>
-        <div id = "SNS-group">
+        <div id = "snsGroup">
             <a href="https://www.youtube.com/@%EC%BF%A0%ED%82%A4%EB%9F%B0%EC%98%A4%EB%B8%90%EC%8A%A4%EB%A7%A4%EC%8B%9C"
-            id = "youtube" class = "Icon SNS"> </a>
+            id = "youtube" class = "icon sns"> </a>
             <a href="https://www.instagram.com/crovensmash_kr/"
-            id = "insta" class = "Icon SNS"> </a>
+            id = "insta" class = "icon sns"> </a>
             <a href="https://x.com/CROvenSmashKR"
-            id = "twitter" class = "Icon SNS"> </a>
+            id = "twitter" class = "icon sns"> </a>
             <a href="https://gall.dcinside.com/ovensmash"
-            id = "dc" class = "Icon SNS"> </a>
+            id = "dc" class = "icon sns"> </a>
         </div>
-        <hr id ="bottomLine">
-        <p id ="guideLine">이 콘텐츠는 데브시스터즈의 제휴, 후원 또는 승인을 받지 않은 콘텐츠입니다.
+        <hr id = "bottomLine">
+        <p id = "guideLine">이 콘텐츠는 데브시스터즈의 제휴, 후원 또는 승인을 받지 않은 콘텐츠입니다.
             <br> 🍪 Portrait | 2026
         </p>
     </footer>
 </body>
 
-<script src="server.js"></script>
+<script src = "server.js"></script>
 
 </html>

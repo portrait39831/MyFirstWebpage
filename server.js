@@ -1,15 +1,15 @@
-const openSet = document.getElementById("openSetting");
-const modal = document.getElementById("settingContainer");
-const closeSet = document.getElementById("closeSetting");
+const openBtn = document.getElementById("openBtn");
+const modal = document.getElementById("popupContainer");
+const closeBtn = document.getElementById("closeBtn");
 const addCookie = document.getElementById("addCookie");
 const container = document.getElementById("list");
 
-openSet.addEventListener ('click', () => {
+openBtn.addEventListener ('click', () => {
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
 });
 
-closeSet.addEventListener ('click', () => {
+closeBtn.addEventListener ('click', () => {
     modal.classList.remove('active');
     document.body.style.overflow = '';
 });
