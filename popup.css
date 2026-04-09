@@ -5,15 +5,13 @@
 
 .popupOverlay {
     display: none; 
-    position: fixed;
+    position: absolute;
+    inset: 0 auto auto 0; /* 팝업 위치 설정 */
     width: 100vw;
     height: 100vw;
     z-index: 1000; /*맨 앞에서 표시 */
 
     background-color: #00000080; /* 뒤에 두 자리는 불투명도 (80이면 50%) */
-
-    /* top: 0;
-    left: 0; */
 }
 
 #settingContent {
