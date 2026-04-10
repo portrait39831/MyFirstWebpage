@@ -2,7 +2,30 @@ const openBtn = document.getElementById("openBtn");
 const modal = document.getElementById("popupContainer");
 const closeBtn = document.getElementById("closeBtn");
 const addCookie = document.getElementById("addCookie");
-const container = document.getElementById("list");
+const container = document.getElementById("list");\
+
+
+function updateSelect(selectId, dataList) {
+    const selectBox = document.getElementById(selectId);
+    selectBox.innerHTML = ""; // 기존 내용 삭제
+
+    dataList.forEach(item => {
+        const option = document.createElement('option');
+        option.value = item;
+        option.innerText = item;
+        selectBox.appendChild(option);
+    });
+}
+
+function selectCookie(charKey) {
+    const data = cookieData[charKey];
+
+    // 첫 번째 콤보박스 업데이트
+    updateSelect('skillComboSelect', data.skillCombos);
+    
+    // 두 번째 콤보박스 업데이트
+    updateSelect('ultComboSelect', data.ultCombos);
+}
 
 openBtn.addEventListener ('click', () => {
     modal.classList.add('active');
@@ -40,3 +63,4 @@ addCookie.addEventListener('click', () => {
     newRow.remove();
     });
 })
+
