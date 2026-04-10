@@ -35,10 +35,6 @@ function selectCookie(charKey) {
 
     container.appendChild(newRow);
 
-    // 팝업 닫기 (캐릭터 선택 시 자동으로 닫히게 하려면)
-    modal.classList.remove('active');
-    document.body.style.overflow = '';
-
     // 삭제 버튼 기능
     newRow.querySelector('.delete-btn').addEventListener('click', () => {
         newRow.remove();
