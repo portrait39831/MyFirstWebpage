@@ -64,11 +64,11 @@ window.addEventListener('click', (e) => {
 
 
 gingerBrave.addEventListener('click', () => {
-    selectCookie(gingerBrave);
+    selectCookie('gingerBrave');
 });
 
 blueSlushy.addEventListener('click', () => {
-    selectCookie(blueSlushy);
+    selectCookie('blueSlushy');
 });
 
 
