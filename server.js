@@ -62,7 +62,6 @@ window.addEventListener('click', (e) => {
     }
 });
 
-
 gingerBrave.addEventListener('click', () => {
     selectCookie('gingerBrave');
 });
