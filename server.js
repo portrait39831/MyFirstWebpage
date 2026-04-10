@@ -6,18 +6,6 @@ const blueSlushy = document.getElementById("blueSlushy");
 const container = document.getElementById("list");
 
 
-function updateSelect(selectId, dataList) {
-    const selectBox = document.getElementById(selectId);
-    selectBox.innerHTML = ""; // 기존 내용 삭제
-
-    dataList.forEach(item => {
-        const option = document.createElement('option');
-        option.value = item;
-        option.innerText = item;
-        selectBox.appendChild(option);
-    });
-}
-
 function selectCookie(charKey) {
     const cookie = cookieData[charKey];
 
@@ -74,24 +62,14 @@ window.addEventListener('click', (e) => {
     }
 });
 
+
 gingerBrave.addEventListener('click', () => {
-    const newRow = document.createElement('div');
-    newRow.className = 'row';
+    selectCookie(gingerBrave);
+});
 
-    newRow.innerHTML = `
-    <img src="icon/icon-sns-youtube2.svg">
-    <div class="row-text">
-      <strong>새로운 아이템</strong><br>
-      <small>방금 추가된 항목입니다.</small>
-    </div>
-    <button class="delete-btn">삭제</button>`; 
-    
-    container.appendChild(newRow);
-
-    newRow.querySelector('.delete-btn').addEventListener('click', () => {
-    newRow.remove();
-    });
-})
+blueSlushy.addEventListener('click', () => {
+    selectCookie(blueSlushy);
+});
 
 
 
