@@ -2,7 +2,7 @@ const openBtn = document.getElementById("openBtn");
 const modal = document.getElementById("popupContainer");
 const closeBtn = document.getElementById("closeBtn");
 const addCookie = document.getElementById("addCookie");
-const container = document.getElementById("list");\
+const container = document.getElementById("list");
 
 
 function updateSelect(selectId, dataList) {
@@ -55,7 +55,7 @@ addCookie.addEventListener('click', () => {
       <strong>새로운 아이템</strong><br>
       <small>방금 추가된 항목입니다.</small>
     </div>
-    <button class="delete-btn">삭제</button>`;    
+    <button class="delete-btn">삭제</button>`; 
     
     container.appendChild(newRow);
 
